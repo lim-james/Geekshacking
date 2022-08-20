@@ -1,11 +1,16 @@
 var data = {
     upcoming: {
-        name: "NodeJS",
-        link: "http://nodejs.geekshacking.com/?fbclid=IwAR1BoAoqXMgc2m0EUe9xAtujySn-YZpRYBYCLEv-qpbP-2JBD1C4TvLBPdQ"
+        name: "Beginning with Go",
+        link: "https://www.eventbrite.sg/e/beginning-with-go-tickets-403920636497?aff=nt"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Beginning with Go",
+            photos: 0,
+            description: "Ever wondered what's all this hype about Go these days? Go programming has become popular over the last couple of years. Created in 2009, Go has gained popularity among many large technology companies. Uber, Twitch and Google have used it to build products and improve performance of systems."
+        },
         {
             name: "NodeJS",
             photos: 0,
