@@ -19,6 +19,9 @@
         gtag('config', 'UA-74239424-1');
     </script>
 
+    <!-- reCaptcha -->
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+
     <title>GeeksHacking</title>
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/icon" href="assets/images/logo.png" />
@@ -461,6 +464,13 @@
                                                     <textarea class="form-control" placeholder="Message" id="message"
                                                         name="message" required></textarea>
                                                 </div>
+                                                <div
+                                                    class="g-recaptcha"
+                                                    data-sitekey="6LdoFygiAAAAAJruiGz9ILC9O_07-3fvjneQu876"
+                                                    data-callback="onRecaptchaSuccess"
+                                                    data-expired-callback="onRecaptchaExpiry"
+                                                    data-error-callback="onRecaptchaError"
+                                                ></div>
                                                 <button type="submit"
                                                     class="mu-send-msg-btn"><span>SUBMIT</span></button>
                                             </form>

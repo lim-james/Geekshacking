@@ -1,3 +1,17 @@
+let isRecaptchaValidated = false;
+
+function onRecaptchaSuccess() {
+	isRecaptchaValidated = true;
+}
+
+function onRecaptchaError() {
+	isRecaptchaValidated = false;
+}
+
+function onRecaptchaResponseExpiry() {
+	isRecaptchaValidated = false;
+}
+
 $(function() {
 
 	// Get the form.
@@ -25,6 +39,10 @@ $(function() {
 	$(form).submit(function(e) {
 		// Stop the browser from submitting the form.
 		e.preventDefault();
+
+		if (!isRecaptchaValidated) {
+			return;
+		}
 
 		// Serialize the form data.
 		var formData = $(form).serialize();
