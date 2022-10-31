@@ -9,7 +9,7 @@ var data = {
         {
             name: "Sentiment Analysis with Google Cloud",
             photos: 0,
-            description: "Sentiment analysis is one approach to identifying the emotional tone behind a body of text in natural language processing (NLP).  As such, sentiment analysis can help businesses monitor brand and product sentiment in customer feedback. Through that, businesses can better understand their customer's needs.\n\nIn this workshop, Thu Ya will introduce the concept of Sentiment Analysis and walkthrough the whole machine learning workflow step-by-step. The workflow includes performing such analysis using SQL on BigQuery, training a classification model using BigQuery ML, and deploying the trained model on Vertex AI for consumption."
+            description: "In this workshop, Thu Ya will introduce the concept of Sentiment Analysis and walkthrough the whole machine learning workflow step-by-step. The workflow includes performing such analysis using SQL on BigQuery, training a classification model using BigQuery ML, and deploying the trained model on Vertex AI for consumption."
         },
         {
             name: "Beginning with Go",
