@@ -1,11 +1,21 @@
 var data = {
     upcoming: {
-        name: "NodeJS",
-        link: "http://nodejs.geekshacking.com/?fbclid=IwAR1BoAoqXMgc2m0EUe9xAtujySn-YZpRYBYCLEv-qpbP-2JBD1C4TvLBPdQ"
+        name: "Sentiment Analysis with Google Cloud",
+        link: "https://www.eventbrite.sg/e/sentiment-analysis-with-google-cloud-tickets-456887632207?aff=web"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Sentiment Analysis with Google Cloud",
+            photos: 0,
+            description: "Sentiment analysis is one approach to identifying the emotional tone behind a body of text in natural language processing (NLP).  As such, sentiment analysis can help businesses monitor brand and product sentiment in customer feedback. Through that, businesses can better understand their customer's needs.\n\nIn this workshop, Thu Ya will introduce the concept of Sentiment Analysis and walkthrough the whole machine learning workflow step-by-step. The workflow includes performing such analysis using SQL on BigQuery, training a classification model using BigQuery ML, and deploying the trained model on Vertex AI for consumption."
+        },
+        {
+            name: "Beginning with Go",
+            photos: 0,
+            description: "Ever wondered what's all this hype about Go these days? Go programming has become popular over the last couple of years. Created in 2009, Go has gained popularity among many large technology companies. Uber, Twitch and Google have used it to build products and improve performance of systems."
+        },
         {
             name: "NodeJS",
             photos: 0,
