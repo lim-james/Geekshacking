@@ -1,11 +1,16 @@
 var data = {
     upcoming: {
-        name: "Sentiment Analysis with Google Cloud",
-        link: "https://www.eventbrite.sg/e/sentiment-analysis-with-google-cloud-tickets-456887632207?aff=web"
+        name: "Progressive Web App",
+        link: "https://www.eventbrite.sg/e/building-progressive-web-apps-tickets-545796039647?aff=fb"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Progressive Web App",
+            photos: 0,
+            description: "In this workshop, we will introduce the basics of Building PWAs and walk through the process of building your very first PWA. The workflow includes pulling data from an API, making a webpage and finally putting in the pieces needed for it to be installable onto your mobile."
+        },
         {
             name: "Sentiment Analysis with Google Cloud",
             photos: 0,
