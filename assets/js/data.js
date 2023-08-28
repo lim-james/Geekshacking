@@ -1,11 +1,21 @@
 var data = {
     upcoming: {
-        name: "Progressive Web App",
-        link: "https://www.eventbrite.sg/e/building-progressive-web-apps-tickets-545796039647?aff=fb"
+        name: "An intro to Docker",
+        link: "https://www.eventbrite.sg/e/thinking-inside-the-box-an-intro-to-docker-tickets-707670580757?aff=geekshacking"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "An intro to Docker",
+            photos: 0,
+            description: "Join GeeksHacking to explore how to containerize apps using Docker. Its always easier when you are learning with onsite guidance!"
+        },
+        {
+            name: "Reacting With Virtual Doms",
+            photos: 0,
+            description: ""
+        },
         {
             name: "Progressive Web App",
             photos: 0,
