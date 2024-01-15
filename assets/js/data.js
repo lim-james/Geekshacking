@@ -1,11 +1,16 @@
 var data = {
     upcoming: {
-        name: "Build With Bun",
-        link: "https://www.eventbrite.sg/e/build-with-bun-tickets-743401603207?aff=web"
+        name: "Game On",
+        link: "https://www.eventbrite.sg/e/game-on-tickets-794340843847?aff=geekshacking"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Game On",
+            photos: 0,
+            description: "Join GeeksHacking and try building your very first game using Godot Engine, its always easier when you are learning with onsite guidance!"
+        },
         {
             name: "Build With Bun",
             photos: 0,
