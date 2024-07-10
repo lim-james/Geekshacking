@@ -1,11 +1,16 @@
 var data = {
     upcoming: {
-        name: "Game On",
-        link: "https://www.eventbrite.sg/e/game-on-tickets-794340843847?aff=geekshacking"
+        name: "Developing GenAI Application with LangChain",
+        link: "https://www.eventbrite.sg/e/developing-genai-application-with-langchain-tickets-937069529187"
     },
 
     video: "https://www.youtube.com/embed/seGGYxlfKsM?wmode=opaque",
     events: [
+        {
+            name: "Developing GenAI Application with LangChain",
+            photos: 0,
+            description: "In this Geekshacking Worksop, we will be developing GenAI applications in Python using a very popular framework called LangChain."
+        },
         {
             name: "Game On",
             photos: 0,
